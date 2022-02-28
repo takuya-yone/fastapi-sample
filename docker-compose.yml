@@ -5,7 +5,7 @@ services:
     # container_name: nextjs-container
     # image: nextjs-container:1.0.0
     ports:
-      - '3000:3000'
+      - '4000:4000'
       # - "3000:80"
     # environment:
     #   - NEXT_PUBLIC_APIHOST=http://production
