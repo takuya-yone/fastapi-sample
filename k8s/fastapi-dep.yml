@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: fastapi-dep
+  name: fastapi-dep
+  namespace: sandbox
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: fastapi-dep
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: fastapi-dep
+    spec:
+      containers:
+      - image: takuyayone/fastapi-sample:1.0.0
+        name: fastapi-sample
+        resources: {}
+status: {}
