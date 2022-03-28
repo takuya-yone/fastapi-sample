@@ -5,7 +5,6 @@ metadata:
   labels:
     app: fastapi-service
   name: fastapi-service
-  namespace: sandbox
 spec:
   ports:
   - name: 4000-4000
