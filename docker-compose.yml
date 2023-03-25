@@ -9,4 +9,4 @@ services:
       # - "3000:80"
     # environment:
     #   - NEXT_PUBLIC_APIHOST=http://production
-    image: takuyayone/fastapi-sample:1.0.0
+    image: takuyayone/fastapi-sample:1.0.1
